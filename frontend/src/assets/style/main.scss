@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+  font-family: Roboto;
+}
+
+.App {
+  width: 100%;
+  max-width: 1920px;
+  padding: 0 80px;
+}
+
+.mt-7 {
+  margin-top: 7px;
+}
+
+.newJobWrapper {
+  padding: 30px 0;
+}
+
+.searchListWrapper {
+  padding: 20px;
+  background-color: $searchFormBgColor;
+}
+
+.ant-table-thead > tr > th {
+  background-color: $tableTitlesBgColor !important;
+  padding: 10px !important;
+  color: $tableTitleColor !important;
+}
+
+.ant-btn-dangerous {
+  background-color: $dangerColor !important;
+  border-color: $dangerColor !important;
+}
+
+.ant-modal-confirm-title {
+  text-align: center;
+}
+
+.ant-modal-confirm .ant-modal-confirm-btns {
+  float: none;
+  text-align: center;
+}
+
+.tableListWrapper {
+  min-height: 700px;
+}
+.copyright{
+  color:$copyrightColor;
+}
+
+footer {
+  background-color: $footerBgColor;
+}
+
+.footerWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
